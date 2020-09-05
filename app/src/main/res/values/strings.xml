@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MadLevel1Task2</string>
+    <string name="TrueValue">T</string>
+    <string name="FalseValue">F</string>
+    <string name="EquationValue">A^B</string>
+    <string name="AValue">A</string>
+    <string name="BValue">B</string>
+    <string name="SubmitValue">Submit</string>
+    <string name="conjuntionValue">Conjunction (AND)</string>
+</resources>
