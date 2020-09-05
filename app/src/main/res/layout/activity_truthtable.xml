@@ -77,9 +77,9 @@
                 android:layout_width="96dp"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/FalseValue"
+                android:text="@string/TrueValue"
                 android:textSize="24sp"
-                tools:text="@string/FalseValue" />
+                tools:text="@string/TrueValue" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -97,6 +97,7 @@
                 android:digits="T,F"
                 android:ems="3"
                 android:gravity="center"
+                android:maxLength="1"
                 android:inputType="text" />
 
         </TableRow>
@@ -110,18 +111,18 @@
                 android:layout_width="96dp"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/FalseValue"
+                android:text="@string/TrueValue"
                 android:textSize="24sp"
-                tools:text="@string/FalseValue" />
+                tools:text="@string/TrueValue" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="96dp"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/TrueValue"
+                android:text="@string/FalseValue"
                 android:textSize="24sp"
-                tools:text="@string/TrueValue" />
+                tools:text="@string/FalseValue" />
 
             <EditText
                 android:id="@+id/edAnswer2"
@@ -130,6 +131,7 @@
                 android:digits="T,F"
                 android:ems="3"
                 android:gravity="center"
+                android:maxLength="1"
                 android:inputType="text" />
 
         </TableRow>
@@ -163,6 +165,7 @@
                 android:digits="T,F"
                 android:ems="3"
                 android:gravity="center"
+                android:maxLength="1"
                 android:inputType="text" />
 
         </TableRow>
@@ -185,9 +188,9 @@
                 android:layout_width="96dp"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/TrueValue"
+                android:text="@string/FalseValue"
                 android:textSize="24sp"
-                tools:text="@string/TrueValue" />
+                tools:text="@string/FalseValue" />
 
             <EditText
                 android:id="@+id/edAnswer4"
@@ -196,6 +199,7 @@
                 android:digits="T,F"
                 android:ems="3"
                 android:gravity="center"
+                android:maxLength="1"
                 android:inputType="text" />
 
         </TableRow>
